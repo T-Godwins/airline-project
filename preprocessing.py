@@ -1,4 +1,6 @@
 import pandas as pd
+from nltk.corpus import stopwords
+import nltk
 
 def clean_data(df):
     """Clean and preprocess the data"""
@@ -14,13 +16,13 @@ def clean_data(df):
     # Convert date
     df['date'] = pd.to_datetime(df['date'])
     
-    # Clean reviews
+    # Clean reviews - keep sentences intact for sentence transformers
     df['reviews'] = df['reviews'].str.replace('✅ trip verified |', ' ', regex=False)
     
     # Create sentiment categories
     df['sentiment'] = pd.cut(
         df['star rating'],
-        bins=[-float('inf'), 3, 3.5, float('inf')],
+        bins=[-float('inf'), 3, 4, float('inf')],
         labels=['Negative', 'Neutral', 'Positive']
     )
     
