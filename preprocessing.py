@@ -22,7 +22,7 @@ def clean_data(df):
     # Create sentiment categories
     df['sentiment'] = pd.cut(
         df['star rating'],
-        bins=[-float('inf'), 3, 4, float('inf')],
+        bins=[-float('inf'), 4, 6, float('inf')],
         labels=['Negative', 'Neutral', 'Positive']
     )
     
