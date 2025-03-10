@@ -1,7 +1,0 @@
-.env
-.venv/
-.env
-.local
-
-# Ignore images folder
-!images/
