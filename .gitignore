@@ -1,4 +1,7 @@
 .env
 .venv/
-.env
 .local
+.datasets/
+datasets/processed/
+*.csv
+!datasets/**/*.csv
