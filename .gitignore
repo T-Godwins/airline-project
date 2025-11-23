@@ -2,6 +2,5 @@
 .venv/
 .local
 .datasets/
-datasets/processed/
+datasets/
 *.csv
-!datasets/**/*.csv
