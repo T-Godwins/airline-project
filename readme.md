@@ -20,7 +20,7 @@ The airline industry relies on the **Business Class segment**, which represents 
 
 | Component | Content Focus | Link |
 | :--- | :--- | :--- |
-| **The Narrative** | **Strategy.** A deeper dive into the the "Expectation Gap" with "Digital Handshake". | [**View Story Notebook**](detailed_analysis/airline_sentiment_story.ipynb) |
+| **The Narrative** | **Strategy.** A deeper dive into the "Expectation Gap" with "Digital Handshake". | [**View Story Notebook**](detailed_analysis/airline_sentiment_story.ipynb) |
 | **The Code** | **Data Science.** Notebooks 01-04 covering Cleaning, Baseline Modeling, Feature Engineering, and Model Evaluation. | [**View Notebooks**](technical_analysis/) |
 | **The Validation** | **AI Engineering.** A RAG pipeline using OpenAI & Pinecone to semantically search Reddit for qualitative evidence. | [**View Reddit Scraper**](technical_analysis/05_reddit_validation.ipynb) |
 
