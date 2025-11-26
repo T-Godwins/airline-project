@@ -12,7 +12,7 @@ The airline industry relies on the **Business Class segment**, which represents 
 * **The "Digital Handshake":** Business Class passengers punish app failures severely. A boarding rating of 3/5 is acceptable in Economy but creates a **Detractor Event** in Business.
 * **Revenue Blocking:** Qualitative validation proved that app glitches are actively blocking paid upgrades, directly costing the airline revenue.
 
-📄 **[Read the Full Executive Summary](executive_summary/EXECUTIVE_SUMMARY.md)**
+📄 **[Read the Full Executive Summary](EXECUTIVE_SUMMARY.md)**
 
 ---
 
@@ -22,7 +22,7 @@ The airline industry relies on the **Business Class segment**, which represents 
 | :--- | :--- | :--- |
 | **The Narrative** | **Strategy.** A deeper dive into the the "Expectation Gap" with "Digital Handshake". | [**View Story Notebook**](detailed_analysis/airline_sentiment_story.ipynb) |
 | **The Code** | **Data Science.** Notebooks 01-04 covering Cleaning, Baseline Modeling, Feature Engineering, and Model Evaluation. | [**View Notebooks**](technical_analysis/) |
-| **The Validation** | **AI Engineering.** A RAG pipeline using OpenAI & Pinecone to semantically search Reddit for qualitative evidence. | [**View Reddit Scraper**](technical_analysis/notebooks/05_reddit_validation.ipynb) |
+| **The Validation** | **AI Engineering.** A RAG pipeline using OpenAI & Pinecone to semantically search Reddit for qualitative evidence. | [**View Reddit Scraper**](technical_analysis/05_reddit_validation.ipynb) |
 
 ---
 
