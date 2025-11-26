@@ -2,7 +2,7 @@
 
 ## The Digital Handshake: Validating the CES 2025 Vision for Premium Retention
 
-![Ed Bastian at CES 2025](../images/Ed_Bastian_at_CES_2025.jpg "Ed Bastian at CES 2025")
+![Ed Bastian at CES 2025](images/Ed_Bastian_at_CES_2025.jpg "Ed Bastian at CES 2025")
 
 ### 1. Strategic Context: The Vision vs. The Reality
 
@@ -19,7 +19,7 @@ Contrary to the traditional belief that "Hardware" (Seats, Food, Legroom) is the
 - **#1 Predictor:** The Digital Experience. Composite scores for App Reliability, Online Boarding, and Wifi were the strongest predictors of Business Class satisfaction.
 - **The "Digital Handshake:** The data defines a critical workflow I call the "Digital Handshake" (App $\to$ Lounge $\to$ Boarding). A single digital failure (e.g., a boarding pass glitch) creates a Detractor Event that physical luxury cannot undo.
 
-![Strategic Importance](../images/strategic_importance.png)
+![Strategic Importance](images/strategic_importance.png)
 **Feature Importance by Strategic Category**: A visual comparison of predictive weight between Digital Infrastructure (<span style="color:red">Red</span>) and Physical Amenities (<span style="color:blue">Blue</span>). The data indicates that "Soft Product" elements (connectivity and digital reliability) currently carry more weight in determining Business Class satisfaction than traditional "Hard Product" assets.
 
 ### 3. Voice of the Customer: The Mechanism of Failure
