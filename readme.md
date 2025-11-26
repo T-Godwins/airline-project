@@ -33,3 +33,6 @@ The airline industry relies on the **Business Class segment**, which represents 
 ```bash
 git clone [https://github.com/yourusername/airline-sentiment-strategy.git](https://github.com/yourusername/airline-sentiment-strategy.git)
 pip install -r requirements.txt
+```
+
+**API Keys** (Optional): For Notebook 05 (Reddit Validation), create a `.env.local` file with your Reddit, OpenAI, and Pinecone API keys - see [Reddit API](https://www.reddit.com/prefs/apps), [OpenAI API](https://platform.openai.com/api-keys), and [Pinecone](https://www.pinecone.io/) for setup instructions.
