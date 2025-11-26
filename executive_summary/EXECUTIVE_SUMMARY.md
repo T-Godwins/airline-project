@@ -17,14 +17,14 @@ Contrary to the traditional belief that "Hardware" (Seats, Food, Legroom) is the
 
 **The "Strategic Model" Results:** When pitting "Digital Friction" against "Physical Comfort," the data was unequivocal.
 - **#1 Predictor:** The Digital Experience. Composite scores for App Reliability, Online Boarding, and Wifi were the strongest predictors of Business Class satisfaction.
-- **The Expectation Gap:** Economy passengers tolerate digital friction (3/5 rating). Business Class passengers punish it. A single digital failure (e.g., a boarding pass glitch) creates a Detractor Event that physical luxury cannot undo.
+- **The "Digital Handshake:** The data defines a critical workflow I call the "Digital Handshake" (App $\to$ Lounge $\to$ Boarding). A single digital failure (e.g., a boarding pass glitch) creates a Detractor Event that physical luxury cannot undo.
 
 ![Strategic Importance](../images/strategic_importance.png)
-**Feature Importance by Strategic Category**: A visual comparison of predictive weight between Digital Infrastructure (<span style="color:red">Red</span>) and Physical Amenities (<span style="color:blue">Blue</span>). The data indicates that "Soft Product" elements (connectivity and digital friction) currently carry more weight in determining Business Class satisfaction than traditional "Hard Product" assets.
+**Feature Importance by Strategic Category**: A visual comparison of predictive weight between Digital Infrastructure (<span style="color:red">Red</span>) and Physical Amenities (<span style="color:blue">Blue</span>). The data indicates that "Soft Product" elements (connectivity and digital reliability) currently carry more weight in determining Business Class satisfaction than traditional "Hard Product" assets.
 
 ### 3. Voice of the Customer: The Mechanism of Failure
 
-To understand how technology impacts the human experience (as Bastian highlighted), I conducted a Semantic Search (Vector RAG) analysis of recent feedback from premium frequent flyers. The results confirm that digital failures are direct Revenue Blockers.
+To understand how technology impacts the human experience (as Bastian highlighted), I conducted a  quilitative analysis of recent feedback from premium frequent flyers. The results confirm that digital failures are direct Revenue Blockers.
 - **The Blocked Upgrade:** Customers reported that app glitches actively prevented them from purchasing upgrades.
     > "My upgrade triggered a system glitch that canceled the second leg... I’ve been put on the waitlist again." (Active Revenue Loss)
 - The Hidden Inventory: Customers attempting to buy Business Class seats were blocked by UI failures.
@@ -39,4 +39,4 @@ To maximize ROI on the CES vision, airlines should shift capital allocation stra
 - **Treat Glitches as Churn:** Reclassify app errors not as "IT tickets" but as "Customer Experience Failures" with the same severity as a cancelled flight.
 - **Scale Software, Not Just Seats:** Recognizing that digital improvements scale instantly across the fleet, while physical retrofits take years.
 
-**Conclusion:** Ed Bastian is right—technology is the tool to enrich human experience. But our data proves that for the most profitable passengers, the most enriching technology is simply reliability.
+**Conclusion:** Ed Bastian is right, technology is the tool to enrich human experience. But our data proves that for the most profitable passengers, the most enriching technology is simply reliability.
