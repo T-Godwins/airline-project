@@ -1,149 +1,38 @@
-# Sentiment Analysis
-1. How do customer reviews align with operational flight data? (Combining both datasets)
-Investigate if there's a connection between customer reviews (from the Delta dataset) and flight punctuality or route data (from the Airline dataset).
+# **The Digital Handshake**
+## **Validating the CES 2025 Vision for Premium Airline Retention**
 
-2. Predicting customer satisfaction (Delta dataset)
+![Delta CEO Ed Bastian CES 2025](images/Ed_Bastian_at_CES_2025.jpg)
+*(Delta CEO Ed Bastian at CES: "Technology is the lever to propel the next century of flight.")*
 
-### Model Results
-- Mean Squared Error: 14.93
-- R² Score: -0.26
+### **Executive Summary**
+The airline industry relies on the **Business Class segment**, which represents just 12% of passengers but generates up to [75% of profits](https://www.investopedia.com/ask/answers/041315/how-much-revenue-airline-industry-comes-business-travelers-compared-leisure-travelers.asp). This project tests the CEO's hypothesis that "Human-Centric Tech" is the primary driver of retention for these high-value travelers.
 
-#### Feature Importance
-![Feature Importance](images/feature_importance.png)
-1. Date: Accounts for most of the variance in ratings
-2. Traveler Types: Has less impact on ratings
+**Key Findings:**
+* **Digital > Physical:** Predictive modeling (94% accuracy) reveals that the **Digital Friction Index** (App, Wifi, Boarding) is a stronger predictor of premium churn than Seat Comfort.
+* **The "Digital Handshake":** Business Class passengers punish app failures severely. A boarding rating of 3/5 is acceptable in Economy but creates a **Detractor Event** in Business.
+* **Revenue Blocking:** Qualitative validation proved that app glitches are actively blocking paid upgrades, directly costing the airline revenue.
 
-#### Decision Tree Visualization
-![Decision Tree](images/decision_tree.png)
+📄 **[Read the Full Executive Summary](EXECUTIVE_SUMMARY.md)**
 
-#### Model Interpretation
-- The current model shows poor performance (negative R² score) suggesting that:
-  - We need more features (like Seat Type, Routes, Country)
-  - Date might need better preprocessing (e.g., extract month, day of week)
-  - Text analysis of reviews could provide valuable insights
-  - Consider using more advanced models or ensemble methods
+---
 
+### **Project Architecture**
 
-### Model Results
-- Mean Squared Error: 14.93
-- R² Score: -0.26
+| Component | Content Focus | Link |
+| :--- | :--- | :--- |
+| **The Narrative** | **Strategy.** A deeper dive into the the "Expectation Gap" with "Digital Handshake". | [**View Story Notebook**](detailed_analysis/airline_sentiment_story.ipynb) |
+| **The Code** | **Data Science.** Notebooks 01-04 covering Cleaning, Baseline Modeling, Feature Engineering, and Model Evaluation. | [**View Notebooks**](technical_analysis/) |
+| **The Validation** | **AI Engineering.** A RAG pipeline using OpenAI & Pinecone to semantically search Reddit for qualitative evidence. | [**View Reddit Scraper**](technical_analysis/05_reddit_validation.ipynb) |
 
-#### Feature Importance
-![Feature Importance](images/feature_importance.png)
-1. Date: Accounts for most of the variance in ratings
-2. Traveler Types: Has less impact on ratings
+---
 
-#### Decision Tree Visualization
-![Decision Tree](images/decision_tree.png)
+### **Technical Setup**
+*(For developers looking to reproduce this analysis)*
 
-#### Model Interpretation
-- The current model shows poor performance (negative R² score) suggesting that:
-  - We need more features (like Seat Type, Routes, Country)
-  - Date might need better preprocessing (e.g., extract month, day of week)
-  - Text analysis of reviews could provide valuable insights
-  - Consider using more advanced models or ensemble methods
+**Installation**
+```bash
+git clone [https://github.com/yourusername/airline-sentiment-strategy.git](https://github.com/yourusername/airline-sentiment-strategy.git)
+pip install -r requirements.txt
+```
 
-
-### Model Results
-- Mean Squared Error: 14.93
-- R² Score: -0.26
-
-#### Feature Importance
-![Feature Importance](images/feature_importance.png)
-1. Date: Accounts for most of the variance in ratings
-2. Traveler Types: Has less impact on ratings
-
-#### Decision Tree Visualization
-![Decision Tree](images/decision_tree.png)
-
-#### Model Interpretation
-- The current model shows poor performance (negative R² score) suggesting that:
-  - We need more features (like Seat Type, Routes, Country)
-  - Date might need better preprocessing (e.g., extract month, day of week)
-  - Text analysis of reviews could provide valuable insights
-  - Consider using more advanced models or ensemble methods
-
-
-### Model Results
-- Mean Squared Error: 14.93
-- R² Score: -0.26
-
-#### Feature Importance
-![Feature Importance](images/feature_importance.png)
-1. Date: Accounts for most of the variance in ratings
-2. Traveler Types: Has less impact on ratings
-
-#### Decision Tree Visualization
-![Decision Tree](images/decision_tree.png)
-
-#### Model Interpretation
-- The current model shows poor performance (negative R² score) suggesting that:
-  - We need more features (like Seat Type, Routes, Country)
-  - Date might need better preprocessing (e.g., extract month, day of week)
-  - Text analysis of reviews could provide valuable insights
-  - Consider using more advanced models or ensemble methods
-
-
-### Model Results
-- Mean Squared Error: 14.93
-- R² Score: -0.26
-
-#### Feature Importance
-![Feature Importance](images/feature_importance.png)
-1. Date: Accounts for most of the variance in ratings
-2. Traveler Types: Has less impact on ratings
-
-#### Decision Tree Visualization
-![Decision Tree](images/decision_tree.png)
-
-#### Model Interpretation
-- The current model shows poor performance (negative R² score) suggesting that:
-  - We need more features (like Seat Type, Routes, Country)
-  - Date might need better preprocessing (e.g., extract month, day of week)
-  - Text analysis of reviews could provide valuable insights
-  - Consider using more advanced models or ensemble methods
-
-
-### Model Results
-- Mean Squared Error: 14.93
-- R² Score: -0.26
-
-#### Feature Importance
-![Feature Importance](images/feature_importance.png)
-1. Date: Accounts for most of the variance in ratings
-2. Traveler Types: Has less impact on ratings
-
-#### Decision Tree Visualization
-![Decision Tree](images/decision_tree.png)
-
-#### Model Interpretation
-- The current model shows poor performance (negative R² score) suggesting that:
-  - We need more features (like Seat Type, Routes, Country)
-  - Date might need better preprocessing (e.g., extract month, day of week)
-  - Text analysis of reviews could provide valuable insights
-  - Consider using more advanced models or ensemble methods
-
-
-### Model Results
-- Mean Squared Error: 14.93
-- R² Score: -0.26
-
-#### Feature Importance
-![Feature Importance](images/feature_importance.png)
-1. Date: Accounts for most of the variance in ratings
-2. Traveler Types: Has less impact on ratings
-
-#### Decision Tree Visualization
-![Decision Tree](images/decision_tree.png)
-
-#### Model Interpretation
-- The current model shows poor performance (negative R² score) suggesting that:
-  - We need more features (like Seat Type, Routes, Country)
-  - Date might need better preprocessing (e.g., extract month, day of week)
-  - Text analysis of reviews could provide valuable insights
-  - Consider using more advanced models or ensemble methods
-
-Use the Delta dataset to predict customer satisfaction based on various features.
-
-3. Analyzing flight punctuality (Airline dataset)
-Analyze the Airline dataset to understand flight punctuality and identify key factors influencing it.
+**API Keys** (Optional): For Notebook 05 (Reddit Validation), create a `.env.local` file with your Reddit, OpenAI, and Pinecone API keys - see [Reddit API](https://www.reddit.com/prefs/apps), [OpenAI API](https://platform.openai.com/api-keys), and [Pinecone](https://www.pinecone.io/) for setup instructions.
