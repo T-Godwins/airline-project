@@ -6,3 +6,12 @@ datasets/
 models/
 *.pkl
 *.csv
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
