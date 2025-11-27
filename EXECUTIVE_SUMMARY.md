@@ -37,6 +37,17 @@ The data strongly supports Ed Bastian’s CES thesis, but with a specific caveat
 To maximize ROI on the CES vision, airlines should shift capital allocation strategies:
 - **Defend the Premium Workflow:** Prioritize IT investments that secure the "Digital Handshake" (Check-in $\to$ Lounge $\to$ Boarding) for Business Class travelers.
 - **Treat Glitches as Churn:** Reclassify app errors not as "IT tickets" but as "Customer Experience Failures" with the same severity as a cancelled flight.
-- **Scale Software, Not Just Seats:** Recognizing that digital improvements scale instantly across the fleet, while physical retrofits take years.
+- **Scale Software, Not Just Seats:** Recognize that digital improvements scale instantly across the global fleet, whereas physical retrofits (new seats) take years to deploy.
+
+### 5. Future Considerations
+While this analysis validates the focus on digital infrastructure, several downstream economic questions emerge for executive leadership:
+
+- How does this investment affect the remaining 25% of revenue (Economy)? Since software updates apply to all passengers, does fixing the app for VIPs inadvertently solve support costs for Economy travelers (e.g., fewer call center calls)?
+
+- Does a smoother app lead to more spending? If the "Digital Handshake" is frictionless, are Business travelers more likely to buy last-minute add-ons (like extra bags or seat upgrades) on impulse?
+
+- If a better "Digital Handshake" reduces gate agent workload and help desk volume, could a $50M software investment yield greater margin expansion than a $50M cabin renovation?
 
 **Conclusion:** Ed Bastian is right, technology is the tool to enrich human experience. But our data proves that for the most profitable passengers, the most enriching technology is simply reliability.
+
+Though physical comfort remains important, it has a "ceiling", there are diminishing returns for wider seats. In contrast, removing digital friction offers uncapped potential for retention. Shifting capital expenditure from marginal seat improvements to radical digital overhaul is the most efficient path to securing the next century of Business Class loyalty.
