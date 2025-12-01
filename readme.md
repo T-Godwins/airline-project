@@ -8,7 +8,7 @@
 The airline industry relies on the **Business Class segment**, which represents just 12% of passengers but generates up to [75% of profits](https://www.investopedia.com/ask/answers/041315/how-much-revenue-airline-industry-comes-business-travelers-compared-leisure-travelers.asp). This project tests the CEO's hypothesis that "Human-Centric Tech" is the primary driver of retention for these high-value travelers.
 
 **Key Findings:**
-* **Digital > Physical:** Predictive modeling (94% accuracy) reveals that the **Digital Friction Index** (App, Wifi, Boarding) is a stronger predictor of premium churn than Seat Comfort.
+* **Digital > Physical:** Predictive modeling (93% accuracy) reveals that the **Digital Friction Index** (App, Wifi, Boarding) is a stronger predictor of premium churn than Seat Comfort.
 * **The "Digital Handshake":** Business Class passengers punish app failures severely. A boarding rating of 3/5 is acceptable in Economy but creates a **Detractor Event** in Business.
 * **Revenue Blocking:** Qualitative validation proved that app glitches are actively blocking paid upgrades, directly costing the airline revenue.
 
